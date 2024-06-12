@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: hsl(0, 0%, 8%);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 95vh 5vh;
+  grid-template-areas:
+    "main"
+    "footer";
+}
+
+main {
+  grid-area: main;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .card-container {
+  background: hsl(0, 0%, 12%);
+  text-align: center;
+  width: 310px;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+main .card-container img {
+  border-radius: 50%;
+  width: 65px;
+  margin-bottom: 10px;
+}
+
+main .card-container h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 19px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+main .card-container .user-location {
+  color: hsl(75, 94%, 57%);
+  font-size: 11px;
+  font-weight: 600;
+  margin: 7px 0 0 0;
+}
+
+main .card-container .user-description {
+  color: hsl(0, 0%, 100%);
+  font-size: 11px;
+  margin: 20px 0;
+}
+
+main .card-container p:first-child {
+  color: hsl(75, 94%, 57%);
+}
+
+main .card-container .social-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+main .card-container .social {
+  background: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  padding: 10px;
+  transition: ease-in-out 0.1s;
+}
+
+main .card-container .social:hover {
+  background: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
+
+main .card-container .social span {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+  main .card-container {
+    width: 330px;
+  }
+
+  main .card-container img {
+    width: 67px;
+  }
+
+  main .card-container h1 {
+    font-size: 20px;
+  }
+
+  main .card-container .user-location {
+    font-size: 12px;
+  }
+
+  main .card-container .user-description {
+    font-size: 12px;
+  }
+
+  main .card-container .social span {
+    font-size: 12px;
+  }
+}
