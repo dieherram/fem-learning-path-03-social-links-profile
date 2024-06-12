@@ -1,6 +1,6 @@
 # Frontend Mentor - Solución al perfil de enlaces sociales 🌐
 
-Esta es mi solución al [desafío del perfil de enlaces sociales en Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Los desafíos de Frontend Mentor te ayudan a mejorar tus habilidades de codificación construyendo proyectos realistas. 💪
+Esta es mi solución al [desafío del perfil de enlaces sociales en Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Los desafíos de Frontend Mentor me ayudan a mejorar mis habilidades de codificación construyendo proyectos realistas. 💪
 
 ## Descripción general
 
